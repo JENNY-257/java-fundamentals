@@ -38,5 +38,12 @@ public class ArrayObject {
             System.out.println(stud.name + ":" + stud.marks);
         }
 
+        // declaration another version of string
+
+        String name = new String("dada🙌");
+        System.out.println("Hello " + name);
+        System.out.println(name.charAt(3));
+        System.out.println(name.concat(" is so amazing"));
+
     }
 }
