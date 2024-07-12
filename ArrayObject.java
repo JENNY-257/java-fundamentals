@@ -25,11 +25,17 @@ public class ArrayObject {
         students[0] = s1;
         students[1] = s2;
         students[2] = s3;
-        for(int i = 0; i<students.length;i++){
-            System.out.println(students[i].name);
-            System.out.println(students[i].rollNo);
-            System.out.println(students[i].marks);
+        // for(int i = 0; i<students.length;i++){
+        //     System.out.println(
+        //         students[i].name +" " + 
+        //         students[i].rollNo + " " +
+        //         students[i].marks);
 
+        // }
+
+        // let us use for each loop
+        for(Student stud : students){
+            System.out.println(stud.name + ":" + stud.marks);
         }
 
     }
